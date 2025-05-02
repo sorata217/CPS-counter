@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  #clickArea {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: #4CAF50;
+    color: white;
+    line-height: 200px;
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+    margin-bottom: 20px;
+  }
+  
+  #clickCount {
+    font-size: 24px;
+    margin: 10px;
+  }
+  
+  #resetBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #doubleClickMessage {
+    margin-top: 20px;
+    color: red;
+    font-size: 20px;
+  }
